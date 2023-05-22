@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-_export_star(require("./HelloWorld"), exports);
+_export_star(require("./StrokedText"), exports);
 _export_star(require("./Input"), exports);
 function _export_star(from, to) {
     Object.keys(from).forEach(function(k) {

@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { HelloWorld } from '../HelloWorld';
+import { HelloWorld } from '../StrokedText';
 
 export default {
   title: 'HelloWorld',

@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { HelloWorld } from '../HelloWorld';
+import { HelloWorld } from '../StrokedText';
 
 describe('<HelloWorld />', () => {
   it('should render', () => {

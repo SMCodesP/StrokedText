@@ -1,2 +1,2 @@
-export * from './HelloWorld';
+export * from './StrokedText';
 export * from './Input';

@@ -36,7 +36,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "react-cool-dimensions": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",

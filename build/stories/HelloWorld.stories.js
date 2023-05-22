@@ -17,7 +17,7 @@ _export(exports, {
     }
 });
 var _jsxruntime = require("react/jsx-runtime");
-var _HelloWorld = require("../HelloWorld");
+var _StrokedText = require("../StrokedText");
 function _define_property(obj, key, value) {
     if (key in obj) {
         Object.defineProperty(obj, key, {
@@ -48,10 +48,10 @@ function _object_spread(target) {
 }
 var _default = {
     title: "HelloWorld",
-    component: _HelloWorld.HelloWorld
+    component: _StrokedText.HelloWorld
 };
 var Template = function(args) {
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_HelloWorld.HelloWorld, _object_spread({}, args));
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_StrokedText.HelloWorld, _object_spread({}, args));
 };
 var Default = Template.bind({});
 Default.args = {
