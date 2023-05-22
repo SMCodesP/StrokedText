@@ -1,3 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+Object.defineProperty(exports, "Input", {
+    enumerable: true,
+    get: function() {
+        return Input;
+    }
+});
+var _jsxruntime = require("react/jsx-runtime");
+var _react = require("react");
 function _array_like_to_array(arr, len) {
     if (len == null || len > arr.length) len = arr.length;
     for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
@@ -44,13 +56,11 @@ function _unsupported_iterable_to_array(o, minLen) {
     if (n === "Map" || n === "Set") return Array.from(n);
     if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _array_like_to_array(o, minLen);
 }
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { useState } from "react";
-export function Input() {
-    var _useState = _sliced_to_array(useState(""), 2), name = _useState[0], setName = _useState[1];
-    return /*#__PURE__*/ _jsxs("div", {
+function Input() {
+    var _useState = _sliced_to_array((0, _react.useState)(""), 2), name = _useState[0], setName = _useState[1];
+    return /*#__PURE__*/ (0, _jsxruntime.jsxs)("div", {
         children: [
-            /*#__PURE__*/ _jsxs("h1", {
+            /*#__PURE__*/ (0, _jsxruntime.jsxs)("h1", {
                 "data-testid": "input-result",
                 children: [
                     "Input result : ",
@@ -58,11 +68,11 @@ export function Input() {
                     "!"
                 ]
             }),
-            /*#__PURE__*/ _jsx("label", {
+            /*#__PURE__*/ (0, _jsxruntime.jsx)("label", {
                 htmlFor: "input-type",
                 children: "Enter a value"
             }),
-            /*#__PURE__*/ _jsx("input", {
+            /*#__PURE__*/ (0, _jsxruntime.jsx)("input", {
                 id: "input-type",
                 type: "text",
                 value: name,

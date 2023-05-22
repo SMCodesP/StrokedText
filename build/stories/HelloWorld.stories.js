@@ -1,3 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    default: function() {
+        return _default;
+    },
+    Default: function() {
+        return Default;
+    }
+});
+var _jsxruntime = require("react/jsx-runtime");
+var _HelloWorld = require("../HelloWorld");
 function _define_property(obj, key, value) {
     if (key in obj) {
         Object.defineProperty(obj, key, {
@@ -26,16 +46,14 @@ function _object_spread(target) {
     }
     return target;
 }
-import { jsx as _jsx } from "react/jsx-runtime";
-import { HelloWorld } from "../HelloWorld";
-export default {
+var _default = {
     title: "HelloWorld",
-    component: HelloWorld
+    component: _HelloWorld.HelloWorld
 };
 var Template = function(args) {
-    return /*#__PURE__*/ _jsx(HelloWorld, _object_spread({}, args));
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_HelloWorld.HelloWorld, _object_spread({}, args));
 };
-export var Default = Template.bind({});
+var Default = Template.bind({});
 Default.args = {
     name: "World"
 };
