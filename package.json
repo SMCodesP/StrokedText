@@ -1,28 +1,20 @@
 {
-  "name": "typescript-react-lib-swc",
+  "name": "stroked-text",
   "version": "1.1.2",
-  "author": "maxgfr",
+  "author": "SMCodesP",
   "license": "MIT",
   "description": "A minimalist typescript swc starter for react",
   "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxgfr/typescript-react-lib-swc.git"
+    "url": "https://github.com/SMCodesP/StrokedText.git"
   },
   "bugs": {
-    "url": "https://github.com/maxgfr/typescript-react-lib-swc/issues"
+    "url": "https://github.com/SMCodesP/StrokedText/issues"
   },
-  "homepage": "https://github.com/maxgfr/typescript-react-lib-swc#readme",
+  "homepage": "https://github.com/SMCodesP/StrokedText#readme",
   "files": [
     "build"
-  ],
-  "keywords": [
-    "boilerplate",
-    "typescript",
-    "swc",
-    "react",
-    "storybook",
-    "@testing-library"
   ],
   "scripts": {
     "dev": "nodemon",
