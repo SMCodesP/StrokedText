@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/HelloWorld.tsx"],"sourcesContent":["type Props = {\n  name: string;\n};\n\nexport function HelloWorld(props: Props) {\n  return <h1 data-testid=\"h1\">Hello {props.name}</h1>;\n}\n"],"names":["HelloWorld","props","h1","data-testid","name"],"mappings":";AAIA,OAAO,SAASA,WAAWC,KAAY;IACrC,qBAAO,MAACC;QAAGC,eAAY;;YAAK;YAAOF,MAAMG;;;AAC3C"}
